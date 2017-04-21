@@ -12,7 +12,7 @@ import { StudentComponent } from './student.component';
 import { RouterModule, Routes } from "@angular/router";
 
 import { DbService } from './db.service';
-import { StudentDetailComponent } from './student-detail/student-detail.component';
+import { StudentDetailComponent } from './home/student-detail/student-detail.component';
 import { MyCanActivateComponent } from './mycanactivate.component';
 import { ErrorComponent } from './error.component';
 

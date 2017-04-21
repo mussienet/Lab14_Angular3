@@ -1,7 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 import { ActivatedRoute } from '@angular/router';
 
-import { DbService } from '../db.service';
+import { DbService } from '../../db.service';
 
 @Component({
   selector: 'app-student-detail',
