@@ -1,0 +1,11 @@
+<p>
+List of available Students 
+</p>
+
+  <ol>
+    <li *ngFor="let student of myStudentList; let i=index">
+        <!--<a href="/profile/{{i+1}}">{{student.name}}</a>-->
+        <a [routerLink]="['profile',student.id]">{{student.name}}</a>
+    </li>
+  </ol>
+
